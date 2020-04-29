@@ -1,4 +1,4 @@
-package example.smallest.controllers;
+package example.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,12 +10,6 @@ public class WelcomeController {
 	
 	@RequestMapping(method = RequestMethod.GET, produces = {"application/json"})
 	public @ResponseBody String helloWorld() {
-		
-		//Flux
-		
-		
-		
-		
-		return "Hello FUCKING World!!!"; //"application/json" mean this is a text not a redirect
+		return "Greeting From Dramil Dodeja";
 	}
 }
